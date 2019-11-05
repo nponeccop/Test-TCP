@@ -1,5 +1,6 @@
 language: perl
 dist: trusty
 perl:
+  - "5.30" # quotes are needes so 5.30 isn't interpreted as 5.3
   - "5.26"
   - "5.14"
